@@ -6,10 +6,10 @@ resources:
     branch: main
 
 - name: node-hello
-  type: registry-image-resource
+  type: registry-image
   source:
     repository: node
-    tag: 16.11-buster 
+    tag: 13.10.1-stretch 
 jobs:
 - name: test
   plan:
