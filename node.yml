@@ -2,7 +2,7 @@ resources:
 - name: repo
   type: git
   source:
-    uri: 
+    uri: https://github.com/Shubham-Gupta3197/Concourse-node-hello.git
     branch: main
 
 - name: node-hello
